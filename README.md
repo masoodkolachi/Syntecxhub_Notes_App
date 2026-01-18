@@ -1,21 +1,50 @@
-<<<<<<< HEAD
-# Syntecxhub_Notes_App
-This is Task1
-=======
-# React + Vite
+Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Notes App built with React, allowing users to create, edit, and delete notes.
+All notes are saved in localStorage, so your data stays even after refreshing or closing the browser.
 
-Currently, two official plugins are available:
+Features
+  Create new notes
+  Edit existing notes
+  Delete notes
+  Automatic saving using localStorage
+  lean UI with a smooth workflow
+  Fast and responsive
+  Tech Stack
+  
+React
+  JavaScript (ES6)
+  CSS
+  LocalStorage API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Structure
+src/
+│   App.jsx
+│   App.css
+├── components/
+│   NoteInput.jsx
+│   NotesList.jsx
+└── assets/ (optional)
 
-## React Compiler
+How to Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone the repository:
+git clone https://github.com/masoodkolachi/Syntecxhub_Notes_App.git
 
-## Expanding the ESLint configuration
+Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 53a0e3a (initial commit)
+Start the development server:
+npm run dev
+
+Future Improvements
+  Add search functionality
+  Add categories/tags for notes
+  Add dark mode
+  Cloud sync (Firebase)
+
+Author
+GitHub: masoodkolachi
+
+Masood Khan
+GitHub: masoodkolachi
